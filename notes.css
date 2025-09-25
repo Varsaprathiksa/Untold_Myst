@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sunrise1{
+    background-image: url('./images/sunrise1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921px;
+}
+.sunrise2{
+    background-image: url('./images/sunrise2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921px;
+}
+.sunrise3{
+    background-image: url('./images/sunrise4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921px;
+}
+.sunrise4{
+    background-image: url('./images/sunrise3a.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921px;
+}

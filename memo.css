@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #f9f7eb, #f9f7eb, #f9f7eb, #dbebea, #dbebea);
+}
+.logo{
+    position: absolute;
+    left: 920px;
+    top: 35px;
+}
+.logo > img{
+    width: 20%;
+}
+.bg-image{
+    background-image: url('./images/balcony.jpg');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 2000px;
+    position: relative;
+}
+.hanging-activity{
+    width: 100px;
+    position: absolute;
+    font-size: 3rem;
+    top: 110px;
+    left: 70px;
+    font-family: 'Barrio';
+}
+.bg-image > .hanging-Minion{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 162px;
+    left: 400px;
+    animation: hang 2s linear 0s infinite alternate ;
+    cursor: grab;
+}
+@keyframes hang {
+    from{
+        transform: rotate(-5deg);
+    }
+    to{
+        transform: rotate(5deg);
+    }
+    
+}
+.bg-image > .two-minions{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 353px;
+    left: 409px;
+    opacity: 0.5;
+    filter: brightness(0.5);
+}
+/*  top header*/
+
+.top-title > .a1{
+    text-decoration: none;
+    font-size: 25.7rem;
+    font-weight: bolder;
+    background-image: url('./images/text-img3.jpg');
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text
+}
+/* memo definition */
+.brief-memo{
+    width: 100%;
+    height: 925px;
+    display: flex;
+}
+.brief-memo > img{
+    width: 2019px;
+    height: 925px;
+}
+.brief-memo > div{
+    margin-top: 100px;
+    color: #3f5c5b;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.brief-memo > div > h1{
+    margin-top: 50px;
+    font-family: 'Cinzel Decorative';
+    color: #ff6347;
+}
+.brief-memo > div > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 930px;
+    height: 350px;
+    overflow: auto;
+}
+.brief-memo > div > div > a > img{
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+}
+
+/* for select theme */
+.brief-memo > div > div::-webkit-scrollbar {
+    /* this is for vertical bar */
+    width: 10px; 
+    /* this is for horizontal bar */
+    height: 10px;
+}
+
+/* Track (background of the scrollbar) */
+.brief-memo > div > div::-webkit-scrollbar-track {
+    background: #ff6347;
+}
+
+/* Handle (the draggable part) */
+.brief-memo > div > div::-webkit-scrollbar-thumb {
+    background: #32cd32;
+}
+
+/* Handle on hover */
+.brief-memo > div > div::-webkit-scrollbar-thumb:hover {
+    background: #b0e0e6;
+}
+
+/* for main page */
+::-webkit-scrollbar {
+    /* this is for vertical bar */
+    width: 10px; 
+    /* this is for horizontal bar */
+    height: 10px;
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #5e9204;
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #b0d06d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #183e07;
+}
+
+
+
+
+/* media query */
+@media screen and (min-width:1801px) and (max-width:1900px){}
+@media screen and (min-width:1701px) and (max-width:1800px){}
+@media screen and (min-width:1501px) and (max-width:1700px){}
+@media screen and (min-width:1401px) and (max-width:1500px){}
+
+
+
+@media screen and (min-width:1501px) and (max-width:1700px){
+
+.brief-memo > img{
+    width: 28%;
+}
+.brief-memo {
+    text-align: center;
+}
+.brief-memo > div{
+    margin: 20px;
+    width: 710px;
+    margin-top: 100px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.brief-memo > div > div{
+    width: 600px;
+}
+}
+
+
+@media screen and (min-width:1300px) and (max-width:1500px){
+    body{
+        overflow-x: hidden;
+    }
+    .brief-memo > .img-2{
+    display: none;
+}
+.brief-memo > .img-1{
+    width: 30%;
+}
+.brief-memo {
+    text-align: center;
+}
+.brief-memo > div{
+    margin: 20px;
+    width: 800px;
+    margin-top: 100px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.brief-memo > div > div{
+    width: 700px;
+}
+}
+
+
+@media screen and (min-width: 1026px) and (max-width:1299px){
+     body{
+        overflow-x: hidden;
+    }
+    .logo{
+    position: absolute;
+    left: 480px;
+    top: 5px;
+}
+.logo > img{
+    width: 20%;
+}
+.hanging-activity{
+    width: 100px;
+    position: absolute;
+    font-size: 3rem;
+    top: 110px;
+    left: 70px;
+    font-family: 'Barrio';
+}
+
+/*  top header*/
+
+.top-title > .a1{
+    font-size: 20rem;
+}
+/* memo definition */
+
+.brief-memo > .img-2{
+    display: none;
+}
+.brief-memo > .img-1{
+    width: 40%;
+}
+.brief-memo {
+    text-align: center;
+}
+.brief-memo > div{
+    margin: 20px;
+    width: 500px;
+    margin-top: 100px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.brief-memo > div > div{
+    width: 400px;
+}
+}
+
+
+@media screen and (min-width:971px) and (max-width: 1025px){
+     body{
+        overflow-x: hidden;
+    }
+    .logo{
+    position: absolute;
+    left: 480px;
+    top: 5px;
+}
+.logo > img{
+    width: 27%;
+}
+.hanging-activity{
+    width: 100px;
+    position: absolute;
+    font-size: 3rem;
+    top: 110px;
+    left: 70px;
+    font-family: 'Barrio';
+}
+
+/*  top header*/
+
+.top-title > .a1{
+    font-size: 20rem;
+}
+/* memo definition */
+
+.brief-memo > img{
+    display: none;
+}
+.brief-memo {
+    text-align: center;
+}
+.brief-memo > div{
+    margin: 20px;
+    width: 900px;
+    margin-top: 100px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.brief-memo > div > div{
+    width: 900px;
+}
+
+}
+
+
+@media screen and (min-width: 831px) and (max-width: 970px){
+    body{
+        overflow-x: hidden;
+    }
+    .logo{
+    position: absolute;
+    left: 280px;
+    top: 5px;
+}
+.logo > img{
+    width: 15%;
+}
+.hanging-activity{
+    width: 100px;
+    position: absolute;
+    font-size: 3rem;
+    top: 110px;
+    left: 70px;
+    font-family: 'Barrio';
+}
+
+/*  top header*/
+
+.top-title > .a1{
+    font-size: 15rem;
+}
+/* memo definition */
+
+.brief-memo > img{
+    display: none;
+}
+.brief-memo {
+    text-align: center;
+}
+.brief-memo > div{
+    margin: 20px;
+    width: 800px;
+    margin-top: 100px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.brief-memo > div > div{
+    width: 700px;
+}
+
+}
+
+
+@media screen and (min-width:731px) and (max-width:830px){
+       body{
+        overflow-x: hidden;
+    }
+    .logo{
+    position: absolute;
+    left: 190px;
+    top: 5px;
+}
+.logo > img{
+    width: 15%;
+}
+.hanging-activity{
+    width: 100px;
+    position: absolute;
+    font-size: 3rem;
+    top: 110px;
+    left: 70px;
+    font-family: 'Barrio';
+}
+
+/*  top header*/
+
+.top-title > .a1{
+    font-size: 11rem;
+}
+/* memo definition */
+
+.brief-memo > img{
+    display: none;
+}
+.brief-memo {
+    text-align: center;
+}
+.brief-memo > div{
+    margin: 20px;
+    width: 700px;
+    margin-top: 100px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.brief-memo > div > div{
+    width: 650px;
+}
+
+}
+
+
+@media screen and (min-width:631px) and (max-width:730px){
+    body{
+        overflow-x: hidden;
+    }
+    .logo{
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
+.logo > img{
+    width: 15%;
+}
+.hanging-activity{
+    width: 100px;
+    position: absolute;
+    font-size: 3rem;
+    top: 110px;
+    left: 70px;
+    font-family: 'Barrio';
+}
+
+/*  top header*/
+
+.top-title > .a1{
+    font-size: 9rem;
+}
+/* memo definition */
+
+.brief-memo > img{
+    display: none;
+}
+.brief-memo {
+    text-align: center;
+}
+.brief-memo > div{
+    margin: 20px;
+    width: 600px;
+    margin-top: 100px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.brief-memo > div > div{
+    width: 600px;
+}
+
+
+}
+
+
+
+@media screen and (min-width:577px) and (max-width:630px){
+    body{
+        overflow-x: hidden;
+    }
+    .logo{
+    position: absolute;
+    left: 120px;
+    top: 5px;
+}
+.logo > img{
+    width: 10%;
+}
+.hanging-activity{
+    width: 100px;
+    position: absolute;
+    font-size: 3rem;
+    top: 110px;
+    left: 70px;
+    font-family: 'Barrio';
+}
+
+/*  top header*/
+
+.top-title > .a1{
+    font-size: 7rem;
+}
+/* memo definition */
+
+.brief-memo > img{
+    display: none;
+}
+.brief-memo {
+    text-align: center;
+}
+.brief-memo > div{
+    margin: 20px;
+    width: 500px;
+    margin-top: 100px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.brief-memo > div > div{
+    width: 400px;
+}
+
+}
+
+
+
+@media screen and (max-width: 576px){
+
+    body{
+        overflow-x: hidden;
+    }
+    .logo{
+    position: absolute;
+    left: 120px;
+    top: 5px;
+}
+.logo > img{
+    width: 10%;
+}
+.hanging-activity{
+    width: 100px;
+    position: absolute;
+    font-size: 3rem;
+    top: 110px;
+    left: 40px;
+    font-family: 'Barrio';
+}
+
+/*  top header*/
+
+.top-title > .a1{
+    font-size: 7rem;
+}
+/* memo definition */
+
+.brief-memo > img{
+    display: none;
+}
+.brief-memo {
+    text-align: center;
+}
+.brief-memo > div{
+    margin: 20px;
+    width: 300px;
+    margin-top: 100px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.brief-memo > div > div{
+    width: 300px;
+}
+
+
+}

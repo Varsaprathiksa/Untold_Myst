@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-y: hidden;
+}
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    /* height: 800px; */
+}
+div{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    background-attachment: scroll;
+}
+.div1{
+    background-image: url('./images/boat.jpg');
+    position: relative;
+}
+video{
+    width: 100%;
+    height: 100%;
+    top: -5px;
+    left: 0;
+    position: relative;
+}
+.div3{
+    position: relative;
+}
+.div3 > img, .div3 > div{
+    position: absolute;
+}
+.div3 > img{
+    width: 30%;
+    height: 70%;
+    right: 0;
+    top: 50px;
+}
+.div2{
+    /* background-image: url('./images/sea4.jpg'); */
+    background: linear-gradient(to right, #14668b, #4a9fbe, #44d1c6, #44d1c6,  #44d1c6, #44d1c6, #44d1c6, #44d1c6, #4db9be, #139898, #139898);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2 > .scroll-div{
+    position: relative;
+    margin-top: 230px;
+}
+.div2 > .scroll-div > div{
+    position: absolute;
+    overflow: auto;
+    width: 250px;
+    height: 300px;
+    top: 210px;
+    left: 155px;
+    rotate: -5deg;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+}
+.div2 > .scroll-div > div > a > img{
+    width: 240px;
+    height: 250px;
+    margin: 5px;
+}
+.div1 > p{
+    width: 700px;
+    position: absolute;
+    font-family: 'Oregano';
+    color: #44d1c6;
+    font-size: 2.5rem;
+    right: 0;
+    top: 530px;
+}
+.div1 > h1{
+    font-family: 'Zen Tokyo Zoo';
+    color: #14668b;
+    font-size: 8rem;
+}
+.home-logo{
+    position: absolute;
+    top: 525px;
+    left: 0;
+}
+.home-logo > a{
+    display: block;
+}
+.home-logo > a > img{
+    width: 10%;
+}
+.home-logo > .a2 > img{
+    width: 20%;
+}
+.form-div{
+    position: absolute;
+    top: 260px;
+    right: 60px;
+}
+input{
+    position: absolute;
+    top: -175px;
+    right: -62px;
+    width: 200px;
+    /* height: 50px; */
+    font-size: 1.7rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fd756e;
+}
+input[type="checkbox"] {
+    accent-color: #fd756e; 
+}
+
+.checkbox{
+    position: absolute;
+    top: 0;
+    left: -150px;
+    outline: none;
+    border: none;
+}
+.checkbox0{
+    top: 30px;
+}
+.checkbox1{
+    top: 85px;
+}
+.checkbox2{
+    top: 140px;
+}
+.checkbox3{
+    top: 190px;
+}
+.checkbox4{
+    top: 240px;
+}
+.checkbox5{
+    top: 295px;
+}
+.checkbox6{
+    top: 345px;
+}
+.checkbox7{
+    top: 395px;
+}
+.checkbox8{
+    top: 450px;
+}
+.checkbox9{
+    top: 505px;
+}
+textarea{
+    margin-top: -170px;
+    font-family: 'Cookie';
+    line-height: 3.3rem;
+    font-size: 1.9rem;
+    color: #fd756e;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    /* border: 2px solid red; */
+}
+.buttons{
+    top: 0;
+    left: 0;
+}
+.buttons > a {
+    text-decoration: underline;
+    text-decoration-color: #09707d;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+    display: block;
+    color: #0f465a;
+    font-family: 'Yatra One';
+    text-align: justify;
+    border-radius: 50px;
+    padding: 15px 25px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* for main page */
+::-webkit-scrollbar {
+    /* this is for vertical bar */
+    width: 10px; 
+    /* this is for horizontal bar */
+    height: 10px;
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #44d1c6;
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #4a9fbe;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #14668b;
+}

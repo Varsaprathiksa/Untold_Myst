@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parallax1{
+    background-image: url('./images/parallax-blue1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+    height: 921.5px;
+}
+.parallax4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.parallax4 > .div-title{
+    width: 800px;
+    text-align: center;
+}
+.parallax11{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.parallax11 > .div-title{
+    width: 600px;
+    text-align: center;
+}
+.parallax4 > .div-title > a{
+    text-decoration: none;
+    font-size: 9rem;
+    font-weight: bolder;
+    background-image: url('./images/bgtext-letter.jpg');
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text
+}
+.parallax11 > .div-title > a{
+    text-decoration: none;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    background-image: url('./images/txtimg11.jpg');
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.fa-heart{
+    background-image: url('./images/fa-heart.jpg');
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text
+}
+.heart-11{
+    background-image: url('./images/dear-diary/bgtxt.jpg');
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text
+}
+.parallax2{
+    background-image: url('./images/parallax-blue2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+    height: 921.5px;
+}
+.parallax3{
+    background-image: url('./images/parallax-blue3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+    height: 921.5px;
+}
+.parallax4{
+    background-image: url('./images/parallax-blue4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+    height: 921.5px;
+}
+.parallax5{
+    background-image: url('./images/letterneed4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921.5px;
+}
+.parallax6{
+    background-image: url('./images/letter6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921.5px;
+}
+.parallax7{
+    background-image: url('./images/letter7.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921.5px;
+}
+.parallax8{
+    background-image: url('./images/letterneed.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921.5px;
+}
+.parallax9{
+    background-image: url('./images/letter10.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921.5px;
+}
+.parallax10{
+    background-image: url('./images/letterneed3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921.5px;
+}
+.parallax11{
+    background-image: url('./images/letterneed2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921.5px;
+    background-color: #f291a0;
+}
+.parallax12{
+    background: linear-gradient( to right, #d48fac, #e13855, #e85572,  #f291a0, #f398aa);
+    background-attachment: fixed;
+    background-size: auto;
+    height: 921.5px;
+}
+.parallax12 > p{
+    text-align: center;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: bolder;
+    background-image: url('./images/txtimg14.jpg');
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.parallax12 > div > img{
+    width: 45%;
+    position: relative;
+    top: -80px;
+}
+.parallax13{
+    background-image: url('./images/bgplus.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 921.5px;
+    position: relative;
+}
+.parallax13 > a{
+    position: absolute;
+    left: 1658px;
+    top: 665px;
+}
+.door-penguin{
+    width: 50%;
+}
+.parallax13 > .div1{
+    text-align: center;
+    font-family: 'Angkor';
+    font-size: 5rem;
+    font-weight: bolder;
+    background-image: url('./images/txtimg8.jpg');
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.parallax13 > .scroll-div{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 280px;
+    left: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+.parallax13 > .scroll-div > a > img{
+    width: 400px;
+    height: 380px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.um-logo{
+    position: absolute;
+    left: 370px;
+    top: 700px;
+    width: 10%;
+}
+.parallax13 > .scroll-div::-webkit-scrollbar {
+    /* this is for vertical bar */
+    width: 10px; 
+    /* this is for horizontal bar */
+    height: 10px;
+}
+
+/* Track (background of the scrollbar) */
+.parallax13 > .scroll-div::-webkit-scrollbar-track {
+    background: #f0849b;
+}
+
+/* Handle (the draggable part) */
+.parallax13 > .scroll-div::-webkit-scrollbar-thumb {
+    background: #fea9c6;
+}
+
+/* Handle on hover */
+.parallax13 > .scroll-div::-webkit-scrollbar-thumb:hover {
+    background: #eac8e8;
+}
+
+
+
+
+
+/* for main page */
+::-webkit-scrollbar {
+    /* this is for vertical bar */
+    width: 10px; 
+    /* this is for horizontal bar */
+    height: 10px;
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #e13855;
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #f291a0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #d48fac;
+}
+
+
+
+/* media query */
+@media screen and (min-width:1801px) and (max-width:1900px){}
+@media screen and (min-width:1701px) and (max-width:1800px){}
+@media screen and (min-width:1501px) and (max-width:1700px){}
+@media screen and (min-width:1401px) and (max-width:1500px){}
+
+
+@media screen and (min-width:1501px) and (max-width:1700px){}
+
+@media screen and (min-width:1300px) and (max-width:1500px){}
+
+@media screen and (min-width: 1026px) and (max-width:1299px){}
+
+@media screen and (min-width:971px) and (max-width: 1025px){}
+
+@media screen and (min-width: 831px) and (max-width: 970px){}
+
+@media screen and (min-width:731px) and (max-width:830px){}
+
+@media screen and (min-width:631px) and (max-width:730px){}
+
+@media screen and (min-width:577px) and (max-width:630px){}
+
+@media screen and (max-width: 576px){
+
+
+    .parallax4 > .div-title > a{
+    font-size: 5rem;
+}
+.parallax4 > .div-title{
+    width: 500px;
+}
+.parallax1{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax2{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax3{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax4{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax5{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax6{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax7{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax8{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax9{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax10{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax11{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax12{
+    background-size: 100%;
+    height: 921.5px;
+}
+.parallax11{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.parallax11 > .div-title{
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.parallax11 > .div-title > a{
+    font-size: 2.5rem;
+}
+.parallax12 > p{
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+.parallax12 > div > img{
+    width: 45%;
+    position: relative;
+    top: 20px;
+}
+.parallax13 > a{
+    position: absolute;
+    left: 390px;
+    top: 410px;
+}
+.door-penguin{
+    width: 50%;
+}
+.parallax13 > .div1{
+    text-align: center;
+    font-family: 'Angkor';
+    font-size: 3rem;
+    font-weight: bolder;
+    background-image: url('./images/txtimg8.jpg');
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.parallax13 > .scroll-div{
+    width: 25%;
+    height: 20%;
+    top: 220px;
+    left: 175px;
+}
+.parallax13 > .scroll-div > a > img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.um-logo{
+    left: 70px;
+    top: 410px;
+    width: 10%;
+}
+
+
+}
